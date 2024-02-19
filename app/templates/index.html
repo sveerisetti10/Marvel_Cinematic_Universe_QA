@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Universe Queries</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Added image at the top -->
+    <div class="image-container">
+        <img src="{{ url_for('static', filename='images/Marvel.jpg') }}" alt="Marvel Universe" class="marvel-image">
+    </div>
+    
+    <div class="container">
+        <form action="/" method="post" enctype="multipart/form-data">
+            <label for="question" class="welcome-label">Welcome to the Marvel Cinematic Universe Database!</label>
+            <input type="text" id="question" name="question" placeholder="Ask a question about the Mavel Cinematic Universe">
+            <input type="submit" value="Submit">
+        </form>
+        {% if answer %}
+            <div class="answer-container">
+                <p class="answer-title">Answer:</p>
+                <div class="answer-text">{{ answer }}</div>
+            </div>
+        {% elif error %}
+            <div class="error">
+                <p>Error: {{ error }}</p>
+            </div>
+        {% endif %}
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <footer class="site-footer">
+        <p>Sri Veerisett, Assignment 2, AIPI LLM for Generative AI</p>
+    </footer>
+</body>
+</html>
