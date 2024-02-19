@@ -33,6 +33,7 @@ Contains Python scripts for data scraping and storage, parallel to the functiona
 
 - marvel_scraping_and_storing.py: Focuses on extraction from the Marvel Cinematic Universe Wiki - Fandom.
 - wikipedia_scraping_and_storing.py: Concentrates on extraction from Wikipedia.
+- database_to_generate_text.py: Responsible for connecting to the MongoDB database, finding relevant chunks, generating prompts with context, generating text via GPT-3.5 turbo with context, and returning the generated text.
 
 ## Flask App
 This folder houses the Flask web application components:
