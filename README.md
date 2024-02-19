@@ -1,4 +1,4 @@
-![Marvel](app/static/images/Marvel.png "Marvel Image")
+![Marvel](app/static/images/Marvel.jpg "Marvel Image")
 
 # Marvel Universe Data Project
 
