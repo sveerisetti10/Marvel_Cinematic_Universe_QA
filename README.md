@@ -45,7 +45,7 @@ This folder houses the Flask web application components:
 
 The bar chart shows a comparison of cosine similarity scores between the responses to the user queries by both the RAG model and the raw GPT-3.5 turbo model with no additional context. Based on the image, the response with additional relevant context yields a higher cosine similarity score across all six queries compared to responses without the additional context. It can be concluded that by providing contextual information to the model, the responses are more closely aligned with the correct set of answers. Overall, the chart shows that by supplementing the model with relevant information, the query responses can be significantly better. 
 
-![Example Image]([https://example.com/path/to/image.png](https://github.com/sveerisetti10/Marvel_Cinematic_Universe_QA/blob/main/app/static/images/Cosine.png) "This is an example image")
+![Example Image](images/Cosine.png "This is an example image")
 
 
 
