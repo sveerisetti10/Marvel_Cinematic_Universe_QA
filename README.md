@@ -43,6 +43,8 @@ This folder houses the Flask web application components:
 - Utils: Includes database.py, responsible for connecting to the MongoDB database, finding relevant chunks, generating prompts with context, generating text via GPT-3.5 turbo with context, and returning the generated text.
 ## Results
 
-The bar chart shows a comparison of cosine similarity scores between the responses to the user queries by both the RAG model and the raw GPT-3.5 turbo model with no additional context. Based on the image, the response with additional relevant context yields a higher cosine similarity score across all six queries compared to responses without the additional context. It can be concluded that by providing contextual information to the model, the responses are more closely aligned with the correct set of answers. Overall, the chart shows that by supplementing the model with relevant information, the queries responses can be significantly better. 
+The bar chart shows a comparison of cosine similarity scores between the responses to the user queries by both the RAG model and the raw GPT-3.5 turbo model with no additional context. Based on the image, the response with additional relevant context yields a higher cosine similarity score across all six queries compared to responses without the additional context. It can be concluded that by providing contextual information to the model, the responses are more closely aligned with the correct set of answers. Overall, the chart shows that by supplementing the model with relevant information, the query responses can be significantly better. 
+
+
 
 
