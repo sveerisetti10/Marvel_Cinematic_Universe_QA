@@ -1,3 +1,4 @@
+![Cosine Similarity](app/static/images/Marvel.png "Cosine Similarity Comparison")
 
 # Marvel Universe Data Project
 
