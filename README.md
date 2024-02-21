@@ -2,7 +2,7 @@
 
 # Marvel Cinematic Universe Data Project
 
-This project is an extensive collection and analysis of data related to the Marvel Cinematic Universe (MCU), focusing on recent movies and TV shows. It utilizes web-scraped data from Wikipedia and the Marvel Cinematic Universe Wiki - Fandom, incorporating summaries and actor information for selected movies and shows. The project includes data extraction, processing notebooks, utility scripts, and a Flask web application for interactive querying.
+This project is an extensive collection and analysis of data related to the Marvel Cinematic Universe (MCU), focusing on recent movies and TV shows. It utilizes web-scraped data from Wikipedia and the Marvel Cinematic Universe Wiki - Fandom, incorporating summaries and actor information for selected movies and shows. The project includes data extraction, processing notebooks, utility script, and a Flask web application for interactive querying.
 
 
 
