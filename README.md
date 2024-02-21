@@ -32,8 +32,8 @@ This folder contains Jupyter notebooks used for data processing and analysis:
 ## Scripts
 Contains Python scripts for data scraping and storage, parallel to the functionality described in Marvel_Data_Extraction.ipynb:
 
-- marvel_scraping_and_storing.py: Focuses on extraction from the Marvel Cinematic Universe Wiki - Fandom.
-- wikipedia_scraping_and_storing.py: Concentrates on extraction from Wikipedia.
+- marvel_scraping_and_storing.py: Focuses on extraction from the Marvel Cinematic Universe Wiki - Fandom and storing in database.
+- wikipedia_scraping_and_storing.py: Concentrates on extraction from Wikipedia and storing in database.
 - database_to_generate_text.py: Responsible for connecting to the MongoDB database, finding relevant chunks, generating prompts with context, generating text via GPT-3.5 turbo with context, and returning the generated text.
 
 ## Flask App
