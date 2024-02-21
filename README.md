@@ -45,7 +45,16 @@ This folder houses the Flask web application components:
 - Utils: Includes database.py, responsible for connecting to the MongoDB database, finding relevant chunks, generating prompts with context, generating text via GPT-3.5 turbo with context, and returning the generated text.
 ## Results
 
-The bar chart shows a comparison of cosine similarity scores between the responses to the user queries by both the RAG model and the raw GPT-3.5 turbo model with no additional context. Based on the image, the response with additional relevant context yields a higher cosine similarity score across all six queries compared to responses without the additional context. It can be concluded that by providing contextual information to the model, the responses are more closely aligned with the correct set of answers. Overall, the chart shows that by supplementing the model with relevant information, the query responses can be significantly better. The provided bar chart shows a quantitative comparison between the Retrieval Augmented Generation (RAG) model and a baseline GPT-3.5 model. Cosine similarity scores are used to show how closely aligned model responses are with a set of correct answers. More detailed view as to what the questions were can be found in the measuring_RAG_vs_Normal_Models.ipynb. 
+The bar chart shows a comparison of cosine similarity scores between the responses to the user queries by both the RAG model and the raw GPT-3.5 turbo model with no additional context. Based on the image, the response with additional relevant context yields a higher cosine similarity score across all six queries compared to responses without the additional context. It can be concluded that by providing contextual information to the model, the responses are more closely aligned with the correct set of answers. Overall, the chart shows that by supplementing the model with relevant information, the query responses can be significantly better. The provided bar chart shows a quantitative comparison between the Retrieval Augmented Generation (RAG) model and a baseline GPT-3.5 model. Cosine similarity scores are used to show how closely aligned model responses are with a set of correct answers. The questions included were:
+
+- Can you explain what problems Rocket faces in Guardians of the Galaxy Volume 3?
+- Can you explain why people feared Kang in Ant-man Quantumania?
+- Could you explain the motivations behind Gorr's evil ideas in Thor Love and Thunder?
+- How did Ouroboros help in Season 2 of Loki?
+- Can you explain the role of Adam Warlock in Guardians of the Galaxy Volume 3?
+- What does Zeus uses to destroy Korg's body in Thor Love and Thunder?
+
+More detailed view as to what the questions were can be found in the measuring_RAG_vs_Normal_Models.ipynb. 
 
 ![Cosine Similarity](app/static/images/Cosine.png "Cosine Similarity Comparison")
 
