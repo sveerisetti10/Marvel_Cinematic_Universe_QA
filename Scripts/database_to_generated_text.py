@@ -37,8 +37,7 @@ def generate_embedding(text):
 
 def find_most_relevant_chunks(query, top_k=5):
     """
-    Purpose: To extract text from .txt files in a directory and store the text along with its embedding in MongoDB.
-    directory_path: The path to the directory containing .txt files.
+    Purpose: To find the most relevant chunks in the database to the user's query. 
     """
     # Here we get the database using the get_database function
     db = get_database()
